@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.039bf95e.css",
+    "main.js": "/Portfolio/static/js/main.925c71d6.js",
+    "static/media/Latest_Shubhneet_CV.pdf": "/Portfolio/static/media/Latest_Shubhneet_CV.71c4a13d269cb23023e7.pdf",
+    "static/media/Hello.gif": "/Portfolio/static/media/Hello.d93720933c608f6178fb.gif",
+    "static/media/shubhneet_choudhary_image.jpg": "/Portfolio/static/media/shubhneet_choudhary_image.174e8a57ec0191fc3974.jpg",
+    "static/media/illustration.svg": "/Portfolio/static/media/illustration.cf4b7a67f23b684549c4f797c62b527a.svg",
+    "static/media/sass-icon.svg": "/Portfolio/static/media/sass-icon.8351205a93eafac2e392b26acf7580e1.svg",
+    "static/media/typescript-icon.svg": "/Portfolio/static/media/typescript-icon.17d5e87eac2c9d1dc722ce1e0b60d5df.svg",
+    "static/media/whatsapp.svg": "/Portfolio/static/media/whatsapp.459dad86534ca5699520ed770f3ce605.svg",
+    "static/media/bootstrap-icon.svg": "/Portfolio/static/media/bootstrap-icon.be374cc9bd654654918df2362bcfb240.svg",
+    "static/media/react-icon.svg": "/Portfolio/static/media/react-icon.f1484e295933af0e748d6a01b05a8361.svg",
+    "static/media/instagram.svg": "/Portfolio/static/media/instagram.e9d6b5424508db6397a027a4e0fe0dd0.svg",
+    "index.html": "/Portfolio/index.html",
+    "static/media/phone-icon.svg": "/Portfolio/static/media/phone-icon.91617f27ac814ef5f29b533ab3d256ec.svg",
+    "static/media/github.svg": "/Portfolio/static/media/github.d344c0fc70ddfb6de253ddc40adcb086.svg",
+    "static/media/email-icon.svg": "/Portfolio/static/media/email-icon.a83578f914460e952501546655b76165.svg",
+    "static/media/external-link.svg": "/Portfolio/static/media/external-link.74ce2401d684101cc83125c6dac8ce9c.svg",
+    "static/media/html-icon.svg": "/Portfolio/static/media/html-icon.ebfc51e406097a90691ab82f1aa72db3.svg",
+    "static/media/css-icon.svg": "/Portfolio/static/media/css-icon.60a6c50d5a470990f63ee17a3bbd9178.svg",
+    "static/media/linkedin.svg": "/Portfolio/static/media/linkedin.4f00d78f67f451cf01173f7418aa186f.svg",
+    "static/media/js-icon.svg": "/Portfolio/static/media/js-icon.ffcf56dc5498f7bbbec802191c740e5f.svg",
+    "main.039bf95e.css.map": "/Portfolio/static/css/main.039bf95e.css.map",
+    "main.925c71d6.js.map": "/Portfolio/static/js/main.925c71d6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.039bf95e.css",
+    "static/js/main.925c71d6.js"
+  ]
+}
