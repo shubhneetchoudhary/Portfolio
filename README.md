@@ -4,7 +4,8 @@
 - React
 - Typescript
 - Styled Components
+- Firebase Cloud-fireStore
  
 ## To run this project:
-- yarn install
-- yarn run start /npm run 
+- npm install
+- npm run start /npm run 
