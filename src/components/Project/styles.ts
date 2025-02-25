@@ -7,6 +7,7 @@ export const Container = styled.section`
     text-align: center;
     font-size: 3rem; /* Reduced for smaller screens */
     margin-bottom: 2rem;
+    color:#5AC8FA
   }
 
   .projects {

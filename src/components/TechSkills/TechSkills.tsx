@@ -29,6 +29,13 @@ import { ReactComponent as JwtIcon } from "../../assets/jwtio-json-web-token.svg
 import { ReactComponent as TomcatIcon } from "../../assets/tomcat-svgrepo-com.svg";
 import { ReactComponent as WindowsIISIcon } from "../../assets/microsoft-windows-22.svg";
 import { ReactComponent as PostmanIcon } from "../../assets/postman-svgrepo-com.svg";
+
+import { ReactComponent as VisualStudioCodeIcon } from "../../assets/icons8-visual-studio-code-2019.svg";
+import { ReactComponent as VisualStudio2022Icon } from "../../assets/icons8-visual-studio.svg";
+import { ReactComponent as IntellijeaIcon } from "../../assets/IntelliJ_IDEA_Icon.svg";
+import { ReactComponent as CommandLineIcon } from "../../assets/commandline.svg";
+import { ReactComponent as AndroidIcon } from "../../assets/Android_robot.svg";
+
 import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
@@ -488,6 +495,77 @@ export default function TechSkills() {
                 </div>
             </ScrollAnimation>
             <div className="row">
+                <div className="material-box">IDEs</div>
+            </div>
+            <ScrollAnimation
+                animateIn="fadeInLeft"
+                delay={0.2 * 1000}
+            >
+                <div className="frontend-details">
+                    <Box
+                        sx={{
+                            flexGrow: 1,
+                            mt: 4,
+                            width: '100%',
+                            maxWidth: '1200px',
+                            mx: 'auto',
+                            display: 'flex',
+                            justifyContent: 'center',
+                            alignItems: 'center',
+                        }}
+                    >
+                        <Grid
+                            container
+                            columnSpacing={3}
+                            rowSpacing={2}
+                            sx={{
+                                alignItems: 'center',
+                                justifyContent: 'center'
+                            }}
+                        >
+                            <Grid item xs={12} sm={4} className="each-item-hover">
+                                <Item className="Item-Background">
+                                    <SvgWrapper>
+                                        <VisualStudioCodeIcon/>
+                                    </SvgWrapper>
+                                    <div className="skills-frontend">Visual Studio Code</div>
+                                    <div className="xp-text"> XP 1.5 Years</div>
+                                </Item>
+                            </Grid>
+
+                            <Grid item xs={12} sm={4} className="each-item-hover">
+                                <Item className="Item-Background">
+                                    <SvgWrapper>
+                                        <VisualStudio2022Icon />
+                                    </SvgWrapper>
+                                    <div className="skills-frontend">Visual Studio Community 2022</div>
+                                    <div className="xp-text"> XP 1.5 Years</div>
+                                </Item>
+                            </Grid>
+                            <Grid item xs={12} sm={4} className="each-item-hover">
+                                <Item className="Item-Background">
+                                    <SvgWrapper>
+                                        <AndroidIcon />
+                                    </SvgWrapper>
+                                    <div className="skills-frontend">Android Studio</div>
+                                    <div className="xp-text"> XP 1 Years</div>
+                                </Item>
+                            </Grid>
+                            <Grid item xs={12} sm={4} className="each-item-hover">
+                                <Item className="Item-Background">
+                                    <SvgWrapper>
+                                        <IntellijeaIcon />
+                                    </SvgWrapper>
+                                    <div className="skills-frontend">IntelliJ IDEA</div>
+                                    <div className="xp-text"> XP 1 years</div>
+                                </Item>
+                            </Grid>
+                        </Grid>
+                    </Box>
+
+                </div>
+            </ScrollAnimation>
+            <div className="row">
                 <div className="material-box">Others</div>
             </div>
             <ScrollAnimation
@@ -550,6 +628,15 @@ export default function TechSkills() {
                                         <PostmanIcon />
                                     </SvgWrapper>
                                     <div className="skills-frontend">Postman</div>
+                                    <div className="xp-text"> XP 1.5 year</div>
+                                </Item>
+                            </Grid>
+                            <Grid item xs={12} sm={4} className="each-item-hover">
+                                <Item className="Item-Background">
+                                    <SvgWrapper>
+                                        <CommandLineIcon />
+                                    </SvgWrapper>
+                                    <div className="skills-frontend">Command Line Interface</div>
                                     <div className="xp-text"> XP 1.5 year</div>
                                 </Item>
                             </Grid>
