@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.30489b68.css",
-    "main.js": "/Portfolio/static/js/main.dad28fd5.js",
+    "main.js": "/Portfolio/static/js/main.f3dedcfd.js",
     "static/media/Latest_Shubhneet_CV.pdf": "/Portfolio/static/media/Latest_Shubhneet_CV.71c4a13d269cb23023e7.pdf",
     "static/media/Hello.gif": "/Portfolio/static/media/Hello.d93720933c608f6178fb.gif",
     "static/media/shubhneet_choudhary_image.jpg": "/Portfolio/static/media/shubhneet_choudhary_image.174e8a57ec0191fc3974.jpg",
@@ -42,10 +42,10 @@
     "static/media/Material UI.svg": "/Portfolio/static/media/Material UI.87264df237ee700ba78bb58ff701a6d3.svg",
     "static/media/microsoft-windows-22.svg": "/Portfolio/static/media/microsoft-windows-22.4b4849633a68ebb30496631c9c452eeb.svg",
     "main.30489b68.css.map": "/Portfolio/static/css/main.30489b68.css.map",
-    "main.dad28fd5.js.map": "/Portfolio/static/js/main.dad28fd5.js.map"
+    "main.f3dedcfd.js.map": "/Portfolio/static/js/main.f3dedcfd.js.map"
   },
   "entrypoints": [
     "static/css/main.30489b68.css",
-    "static/js/main.dad28fd5.js"
+    "static/js/main.f3dedcfd.js"
   ]
 }
