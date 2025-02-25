@@ -519,7 +519,7 @@ export default function TechSkills() {
                             <Grid item xs={12} sm={4} className="each-item-hover">
                                 <Item className="Item-Background">
                                     <SvgWrapper>
-                                        <NET_Core_Logo />
+                                        <FirebaseIcon />
                                     </SvgWrapper>
                                     <div className="skills-frontend">Firebase</div>
                                     <div className="xp-text"> XP 1 Years</div>
