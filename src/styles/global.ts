@@ -77,7 +77,7 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 1.4rem;
     -webkit-font-smoothing: antialiased;
     background-color: var(--black);
-    color: #5ac8fa;
+    color: #FFF;
   }
 
   body, input, textarea, button{
@@ -92,7 +92,7 @@ export const GlobalStyle = createGlobalStyle`
   button, .button{
     border: none;
     cursor: pointer;
-    background-color: var(--pink);
+    background-color:  #20948B;
     color: #FFFF;
     border-radius: 2rem;
     font-weight: 500;

@@ -10,9 +10,30 @@ export const Container = styled.footer`
   justify-content: space-between;
 
 
-  .logo{
-    font-size: 2.8rem;
+  // .logo{
+  //   font-size: 2.8rem;
+  // }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Arial', sans-serif;
+    color: #FFFFFF;
+    font-size: 2.0rem;
+    letter-spacing: 0.5px;
+    white-space: nowrap; /* Prevent text wrapping */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Adds ... if text overflows */
+    max-width: 100%;
+    transition: color 0.3s ease;
   }
+
+  .logo:hover {
+    color: #5ac8fa;
+  }
+
 
   p{
     letter-spacing: 0.2rem;
@@ -58,4 +79,12 @@ export const Container = styled.footer`
       font-size: 1.2rem;
     }
   }
+
+  @media (max-width: 375px) { /* iPhone SE specific */
+  .logo {
+    font-size: 1.0rem;
+    padding: 0 10px; /* Adds spacing on small devices */
+  }
+
+}
 `

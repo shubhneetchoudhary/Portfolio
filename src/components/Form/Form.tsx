@@ -6,14 +6,24 @@ import { getApps, initializeApp } from 'firebase/app';
 import { getFirestore, addDoc, collection } from 'firebase/firestore';
 import validator from 'validator';
 
-// Firebase configuration (ensure it's correct)
-const firebaseConfig = {
-  apiKey: "AIzaSyBMUlx5ayskp9KXuabheKGMbTKuQDmCMq8",
-  authDomain: "loginapplication-dbe72.firebaseapp.com",
-  projectId: "loginapplication-dbe72",
-  storageBucket: "loginapplication-dbe72.appspot.com",
-  messagingSenderId: "734584554367",
-  appId: "1:734584554367:android:be449fc4a95a01c0e5d04a",
+// Firebase configuration (ensure it's correct) //monarch credentials
+// const firebaseConfig = {
+//   apiKey: "AIzaSyBMUlx5ayskp9KXuabheKGMbTKuQDmCMq8",
+//   authDomain: "loginapplication-dbe72.firebaseapp.com",
+//   projectId: "loginapplication-dbe72",
+//   storageBucket: "loginapplication-dbe72.appspot.com",
+//   messagingSenderId: "734584554367",
+//   appId: "1:734584554367:android:be449fc4a95a01c0e5d04a",
+// };
+
+const firebaseConfig = {  //shubh credentials
+  apiKey: "AIzaSyCQzFuNc-akpLtYiKzHzZ6b8mRc2lvFk0k",
+  authDomain: "personalportfolio-3026a.firebaseapp.com",
+  projectId: "personalportfolio-3026a",
+  storageBucket: "personalportfolio-3026a.firebasestorage.app",
+  messagingSenderId: "302506052683",
+  appId: "1:302506052683:web:ca3afa55a94066d7c991ce",
+  measurementId: "G-MFVDN971E9"
 };
 
 // Firebase Initialization (Ensure it's initialized only once)

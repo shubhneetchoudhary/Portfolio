@@ -1,0 +1,61 @@
+.material-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 289px;
+  height: 51px;
+  margin: 0 auto;
+  background-color: #5ac8fa;
+  border-radius: 16px;
+  border-style: solid;
+  border-color: aqua;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-size: 1.5rem;
+  color: #ffffff;
+  letter-spacing: 2px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.material-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+.each-item-hover:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+ 
+}
+
+.Item-Background:hover{
+  background-color: #5ac8fa; /* Light blue hex code */
+}
+
+
+
+/* 📱 Responsive for mobile devices (like iPhone SE) */
+@media (max-width: 480px) {
+  .material-box {
+    height: 50px;
+    font-size: 1.5rem;
+    width: 50%;
+  }
+}
+
+.frontend-details {
+  margin-bottom: 4rem;
+}
+
+.skills-frontend {
+  font-size: 1.3rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.xp-text {
+  font-size: 1rem;
+  font-style: italic;
+
+}

@@ -1,15 +1,15 @@
 import styled from "styled-components";
 
-
 export const Container = styled.section`
-  margin-top: 15rem;
-  
-  h2{
+  margin-top: 2rem;
+
+  h2 {
     text-align: center;
-    font-size: 4rem;
-    margin-bottom: 3rem;
+    font-size: 3rem; /* Reduced for smaller screens */
+    margin-bottom: 2rem;
   }
-  .projects{
+
+  .projects {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
@@ -17,76 +17,126 @@ export const Container = styled.section`
     padding: 1rem;
     overflow: hidden;
 
-    .project{
-      padding: 2rem 1.8rem;
+    .project {
+      padding: 1.5rem;
       background-color: #2b2b2b;
       border-radius: 1.2rem;
       transition: 0.25s;
       display: flex;
       flex-direction: column;
       height: 100%;
-      color: #FFF;
-      &:hover{
+      color: #fff;
+
+      &:hover {
         transform: translateY(-5px);
-        background-color: var(--pink);
+        background-color: var(--blue);
       }
 
-      header{
+      header {
         display: flex;
         align-items: center;
         justify-content: space-between;
         color: var(--blue);
-        margin-bottom: 3.6rem;
-        .project-links{
+        margin-bottom: 2rem;
+
+        .project-links {
           display: flex;
           align-items: center;
-          gap: 1rem;
+          gap: 0.8rem;
         }
+
         a > img {
-          width: 5.0rem;
+          width: 4rem;
         }
-      }
-      
-      h3{
-        margin-bottom: 2rem;
       }
 
-      p{
+      h3 {
+        margin-bottom: 1.5rem;
+        font-size: 1.5rem;
+      }
+
+      p {
         letter-spacing: 0.12rem;
-        margin-bottom: 2rem;
-        a{
-          color: #FFFF;
+        margin-bottom: 1.5rem;
+        font-size: 1.3rem;
+
+        a {
+          color: #ffff;
           border-bottom: 1px solid var(--green);
           transition: color 0.25s;
-          &:hover{
+
+          &:hover {
             color: var(--green);
           }
         }
       }
 
-      footer{
+      footer {
         margin-top: auto;
-        .tech-list{
+
+        .tech-list {
           display: flex;
-          align-items: center;
-          gap: 2rem;
+          flex-wrap: wrap;
+          gap: 1.5rem;
           font-size: 1.2rem;
           opacity: 0.6;
         }
       }
-
     }
   }
 
-  @media (max-width: 960px){
-    .projects{
+  /* Tablet and medium devices */
+  @media (max-width: 960px) {
+    .projects {
       grid-template-columns: 1fr 1fr;
     }
   }
 
-  @media (max-width: 740px){
-    .projects{
+  /* Small screens (phones) */
+  @media (max-width: 740px) {
+    .projects {
       grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+
+    h2 {
+      font-size: 2.5rem;
+    }
+
+    .project {
+      padding: 1.2rem;
     }
   }
-`
+
+  /* iPhone SE specific (375px and smaller) */
+  @media (max-width: 400px) {
+    h2 {
+      font-size: 3rem;
+    }
+
+    .projects {
+      grid-template-columns: 1fr;
+      padding: 0.5rem;
+      gap: 1rem;
+    }
+
+    .project {
+      padding: 1rem;
+
+      header {
+        flex-direction: column;
+        gap: 1rem;
+
+        a > img {
+          width: 3rem;
+        }
+      }
+
+      footer .tech-list {
+        flex-direction: column;
+        gap: 0.8rem;
+        font-size: 0.9rem;
+      }
+    }
+  }
+`;

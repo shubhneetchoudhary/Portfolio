@@ -9,8 +9,7 @@ export function Footer() {
   return (
     <Container className="footer">
       <a href="https://shubhneetchoudhary.godaddysites.com/" className="logo">
-        <span>www.shubhneet</span>
-        <span>choudhary.com</span>
+        www.shubhneetchoudhary.com
       </a>
       <div>
         <p>
@@ -25,13 +24,6 @@ export function Footer() {
           rel="noreferrer"
         >
           <img src={linkedin} alt="Linkedin" />
-        </a>
-        <a
-          href="#"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={githubIcon} alt="GitHub" />
         </a>
         <a
           href="https://api.whatsapp.com/send/?phone=%2B918273532956&text=Hello+shubhneet_choudhary"

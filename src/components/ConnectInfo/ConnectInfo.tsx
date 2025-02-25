@@ -7,7 +7,7 @@ import linkedin from "../../assets/linkedin.svg";
 import githubIcon from "../../assets/github.svg";
 import whatsapp from "../../assets/whatsapp.svg";
 import Hello from "../../assets/Hello.gif";
-export function Hero() {
+export function ConnectInfo() {
   return (
     <Container id="home">
       <div className="hero-text">
@@ -42,13 +42,6 @@ export function Hero() {
               <img src={linkedin} alt="Linkedin" />
             </a>
             <a
-              href="#"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src={githubIcon} alt="GitHub" />
-            </a>
-            <a
               href="https://api.whatsapp.com/send/?phone=%2B918273532956&text=Hello+shubhneet_choudhary"
               target="_blank"
               rel="noreferrer"
@@ -58,11 +51,7 @@ export function Hero() {
           </div>
         </ScrollAnimation>
       </div>
-      <div className="hero-image">
-        <ScrollAnimation animateIn="fadeInRight" delay={1 * 1000}>
-          <img src={Illustration} alt="Ilustração" />
-        </ScrollAnimation>
-      </div>
+   
     </Container>
   );
 }
