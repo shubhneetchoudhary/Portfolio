@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.30489b68.css",
-    "main.js": "/Portfolio/static/js/main.f3dedcfd.js",
+    "main.js": "/Portfolio/static/js/main.656af313.js",
     "static/media/Latest_Shubhneet_CV.pdf": "/Portfolio/static/media/Latest_Shubhneet_CV.71c4a13d269cb23023e7.pdf",
     "static/media/Hello.gif": "/Portfolio/static/media/Hello.d93720933c608f6178fb.gif",
     "static/media/shubhneet_choudhary_image.jpg": "/Portfolio/static/media/shubhneet_choudhary_image.174e8a57ec0191fc3974.jpg",
@@ -13,7 +13,9 @@
     "static/media/nodejs-logo-svgrepo-com.svg": "/Portfolio/static/media/nodejs-logo-svgrepo-com.9b464a9aee62c52faeebf257f69cad74.svg",
     "static/media/jsp-open-file-format-with-java-logo-svgrepo-com.svg": "/Portfolio/static/media/jsp-open-file-format-with-java-logo-svgrepo-com.4845f93eea4dadf8b0de9655d24176dd.svg",
     "static/media/firebase-svgrepo-com.svg": "/Portfolio/static/media/firebase-svgrepo-com.334c7505aa7b42a0a64028cae63fecfb.svg",
+    "static/media/IntelliJ_IDEA_Icon.svg": "/Portfolio/static/media/IntelliJ_IDEA_Icon.1faf050ae894674aaa66ff1679da1171.svg",
     "static/media/typescript-icon.svg": "/Portfolio/static/media/typescript-icon.f3bc0fd998dea6b1266965436af97a49.svg",
+    "static/media/icons8-visual-studio.svg": "/Portfolio/static/media/icons8-visual-studio.9c4a484be233d80dd10d4f2730276265.svg",
     "static/media/whatsapp.svg": "/Portfolio/static/media/whatsapp.459dad86534ca5699520ed770f3ce605.svg",
     "static/media/java-vertical.svg": "/Portfolio/static/media/java-vertical.59ff7120213c009e8c7566ecd01c5f22.svg",
     "static/media/react-icon.svg": "/Portfolio/static/media/react-icon.a010f287ea79ad0673b610a223faa951.svg",
@@ -33,19 +35,22 @@
     "static/media/html-icon.svg": "/Portfolio/static/media/html-icon.185baee7db74b83bf22eec6a6def7644.svg",
     "static/media/css-icon.svg": "/Portfolio/static/media/css-icon.212d777ae2db63edb235490d487dc292.svg",
     "static/media/C\u0000# (CSharp).svg": "/Portfolio/static/media/C# (CSharp).4b8080ff785d7bd4f1b95178568e9ba1.svg",
+    "static/media/commandline.svg": "/Portfolio/static/media/commandline.4fe7ca2fd6daccbba09ec4aab86c7484.svg",
     "static/media/Git.svg": "/Portfolio/static/media/Git.c08353563539c6459b353f29d8dd7bf2.svg",
+    "static/media/Android_robot.svg": "/Portfolio/static/media/Android_robot.01ffa90502abf5e47fec750c5b92be28.svg",
     "static/media/Dart.svg": "/Portfolio/static/media/Dart.9e9f20db567adbfe408b388eefa19b1b.svg",
     "static/media/Flutter.svg": "/Portfolio/static/media/Flutter.5be541dd37acf42d0d53cc72fd48362c.svg",
+    "static/media/icons8-visual-studio-code-2019.svg": "/Portfolio/static/media/icons8-visual-studio-code-2019.c95ccce217b9216b765737214d743d02.svg",
     "static/media/linkedin.svg": "/Portfolio/static/media/linkedin.4f00d78f67f451cf01173f7418aa186f.svg",
     "static/media/js-icon.svg": "/Portfolio/static/media/js-icon.2d25723e91c8a9e057ae447ae6a73ecb.svg",
     "static/media/brand-mantine.svg": "/Portfolio/static/media/brand-mantine.8532e1555cca9afabf168e045efebf5b.svg",
     "static/media/Material UI.svg": "/Portfolio/static/media/Material UI.87264df237ee700ba78bb58ff701a6d3.svg",
     "static/media/microsoft-windows-22.svg": "/Portfolio/static/media/microsoft-windows-22.4b4849633a68ebb30496631c9c452eeb.svg",
     "main.30489b68.css.map": "/Portfolio/static/css/main.30489b68.css.map",
-    "main.f3dedcfd.js.map": "/Portfolio/static/js/main.f3dedcfd.js.map"
+    "main.656af313.js.map": "/Portfolio/static/js/main.656af313.js.map"
   },
   "entrypoints": [
     "static/css/main.30489b68.css",
-    "static/js/main.f3dedcfd.js"
+    "static/js/main.656af313.js"
   ]
 }
