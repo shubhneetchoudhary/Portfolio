@@ -21,6 +21,7 @@ import { ReactComponent as PostGreaseIcon } from "../../assets/postgresql-logo-s
 import { ReactComponent as MySqlIcon } from "../../assets/mysql-logo-svgrepo-com.svg";
 import { ReactComponent as SSMSIcon } from "../../assets/microsoft-sql-server-logo-svgrepo-com.svg";
 import { ReactComponent as FirebaseIcon } from "../../assets/firebase-svgrepo-com.svg";
+import { ReactComponent as CassandraIcon } from "../../assets/cassandra-svgrepo-com.svg";
 import { ReactComponent as DjangoIcon } from "../../assets/django-svgrepo-com.svg";
 import { ReactComponent as DotnetEFIcon } from "../../assets/dotnet-svgrepo-com.svg";
 import { ReactComponent as GithubIcon } from "../../assets/github.svg";
@@ -207,7 +208,7 @@ export default function TechSkills() {
                                         <CSharpIcon />
                                     </SvgWrapper>
                                     <div className="skills-frontend">C#</div>
-                                    <div className="xp-text"> XP 1.5 Years</div>
+                                    <div className="xp-text"> XP 2 Years</div>
                                 </Item>
                             </Grid>
 
@@ -305,7 +306,7 @@ export default function TechSkills() {
                                         <SSMSIcon />
                                     </SvgWrapper>
                                     <div className="skills-frontend">Microsoft SQL Server </div>
-                                    <div className="xp-text"> XP 1.5 Years</div>
+                                    <div className="xp-text"> XP 2 Years</div>
                                 </Item>
                             </Grid>
                             <Grid item xs={12} sm={4} className="each-item-hover" >
@@ -317,12 +318,21 @@ export default function TechSkills() {
                                     <div className="xp-text"> XP 1 Years</div>
                                 </Item>
                             </Grid>
-                            <Grid item xs={12} sm={4} sx={{ margin: '0 auto' }} className="each-item-hover" >
+                            <Grid item xs={12} sm={4} className="each-item-hover" >
                                 <Item className="Item-Background">
                                     <SvgWrapper>
                                         <FirebaseIcon />
                                     </SvgWrapper>
                                     <div className="skills-frontend">Firebase Cloud Firestore (NoSQL)</div>
+                                    <div className="xp-text"> XP 1 Years</div>
+                                </Item>
+                            </Grid>
+                            <Grid item xs={12} sm={4} className="each-item-hover" >
+                                <Item className="Item-Background">
+                                    <SvgWrapper>
+                                        <CassandraIcon />
+                                    </SvgWrapper>
+                                    <div className="skills-frontend">Apache Cassandra (Distributed NoSQL Database)</div>
                                     <div className="xp-text"> XP 1 Years</div>
                                 </Item>
                             </Grid>
@@ -356,7 +366,7 @@ export default function TechSkills() {
                                         <NET_Core_Logo />
                                     </SvgWrapper>
                                     <div className="skills-frontend">ASP.NET Core</div>
-                                    <div className="xp-text"> XP 1.5 Years</div>
+                                    <div className="xp-text"> XP 2 Years</div>
                                 </Item>
                             </Grid>
                             <Grid item xs={12} sm={4} className="each-item-hover">
@@ -365,7 +375,7 @@ export default function TechSkills() {
                                         <DotnetEFIcon />
                                     </SvgWrapper>
                                     <div className="skills-frontend">Entity Framework Core</div>
-                                    <div className="xp-text"> XP 1.5 Years</div>
+                                    <div className="xp-text"> XP 2 Years</div>
                                 </Item>
                             </Grid>
                             <Grid item xs={12} sm={4} className="each-item-hover">
@@ -424,7 +434,7 @@ export default function TechSkills() {
                                         <JwtIcon />
                                     </SvgWrapper>
                                     <div className="skills-frontend">JWT Authentication</div>
-                                    <div className="xp-text"> XP 1 Years</div>
+                                    <div className="xp-text"> XP 2 Years</div>
                                 </Item>
                             </Grid>
                             <Grid item xs={12} sm={4} className="each-item-hover">
@@ -476,7 +486,7 @@ export default function TechSkills() {
                                         <GitIcon/>
                                     </SvgWrapper>
                                     <div className="skills-frontend">Git</div>
-                                    <div className="xp-text"> XP 1.5 Years</div>
+                                    <div className="xp-text"> XP 2 Years</div>
                                 </Item>
                             </Grid>
 
@@ -539,7 +549,7 @@ export default function TechSkills() {
                                         <VisualStudio2022Icon />
                                     </SvgWrapper>
                                     <div className="skills-frontend">Visual Studio Community 2022</div>
-                                    <div className="xp-text"> XP 1.5 Years</div>
+                                    <div className="xp-text"> XP 2 Years</div>
                                 </Item>
                             </Grid>
                             <Grid item xs={12} sm={4} className="each-item-hover">
@@ -557,7 +567,7 @@ export default function TechSkills() {
                                         <IntellijeaIcon />
                                     </SvgWrapper>
                                     <div className="skills-frontend">IntelliJ IDEA</div>
-                                    <div className="xp-text"> XP 1 years</div>
+                                    <div className="xp-text"> XP 2 years</div>
                                 </Item>
                             </Grid>
                         </Grid>
@@ -610,7 +620,7 @@ export default function TechSkills() {
                                         <TomcatIcon />
                                     </SvgWrapper>
                                     <div className="skills-frontend">Apache Tomcat Server</div>
-                                    <div className="xp-text"> XP 6 Months</div>
+                                    <div className="xp-text"> XP 1 year</div>
                                 </Item>
                             </Grid>
                             <Grid item xs={12} sm={4} className="each-item-hover">
@@ -619,7 +629,7 @@ export default function TechSkills() {
                                         <WindowsIISIcon />
                                     </SvgWrapper>
                                     <div className="skills-frontend">Windows IIS Server</div>
-                                    <div className="xp-text"> XP 6 Months</div>
+                                    <div className="xp-text"> XP 1.5 year</div>
                                 </Item>
                             </Grid>
                             <Grid item xs={12} sm={4} className="each-item-hover">
