@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.30489b68.css",
-    "main.js": "/Portfolio/static/js/main.656af313.js",
+    "main.js": "/Portfolio/static/js/main.bdfbbe4d.js",
     "static/media/Latest_Shubhneet_CV.pdf": "/Portfolio/static/media/Latest_Shubhneet_CV.71c4a13d269cb23023e7.pdf",
     "static/media/Hello.gif": "/Portfolio/static/media/Hello.d93720933c608f6178fb.gif",
     "static/media/shubhneet_choudhary_image.jpg": "/Portfolio/static/media/shubhneet_choudhary_image.174e8a57ec0191fc3974.jpg",
     "static/media/microsoft-sql-server-logo-svgrepo-com.svg": "/Portfolio/static/media/microsoft-sql-server-logo-svgrepo-com.7e3c2025a2f083448bd8b4aa32b126ea.svg",
     "static/media/postman-svgrepo-com.svg": "/Portfolio/static/media/postman-svgrepo-com.495503726c8a9bf3d3c027c00858ff8e.svg",
+    "static/media/cassandra-svgrepo-com.svg": "/Portfolio/static/media/cassandra-svgrepo-com.107139c05187b4026de18d0faa7068e2.svg",
     "static/media/tomcat-svgrepo-com.svg": "/Portfolio/static/media/tomcat-svgrepo-com.446e344c9acc281013678abd5297bb21.svg",
     "static/media/postgresql-logo-svgrepo-com.svg": "/Portfolio/static/media/postgresql-logo-svgrepo-com.5554dfac6639fb169614c251cd1f6bc0.svg",
     "static/media/mysql-logo-svgrepo-com.svg": "/Portfolio/static/media/mysql-logo-svgrepo-com.5dbd7ffb56a921cecde426cca82f0df4.svg",
@@ -47,10 +48,10 @@
     "static/media/Material UI.svg": "/Portfolio/static/media/Material UI.87264df237ee700ba78bb58ff701a6d3.svg",
     "static/media/microsoft-windows-22.svg": "/Portfolio/static/media/microsoft-windows-22.4b4849633a68ebb30496631c9c452eeb.svg",
     "main.30489b68.css.map": "/Portfolio/static/css/main.30489b68.css.map",
-    "main.656af313.js.map": "/Portfolio/static/js/main.656af313.js.map"
+    "main.bdfbbe4d.js.map": "/Portfolio/static/js/main.bdfbbe4d.js.map"
   },
   "entrypoints": [
     "static/css/main.30489b68.css",
-    "static/js/main.656af313.js"
+    "static/js/main.bdfbbe4d.js"
   ]
 }
